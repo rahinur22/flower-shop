@@ -195,6 +195,8 @@ nav ul li a:hover{
     padding-top: 100px;
 }
 
+    /* The following CSS styles are for the "Instagram" section. */
+
 .instagram {
     text-align: center;
 }
@@ -215,5 +217,44 @@ nav ul li a:hover{
 .insta-section-flowers{
     display: flex;
     gap: 20px;
-    padding-left: 140px;
+    padding-left: 240px;
+    margin-bottom: 150px;
+}
+
+    /* The following CSS styles are for  the  "Latest Deal" section. */
+
+.latest-deal{
+    height: 800px;
+    width: 1430px;
+    background-image: url(../flower-asset/Rectangle\ 9.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 240px;
+    text-align: center;
+}
+
+.latest-deal h1{
+    font-size: 40px;
+    font-weight:bolder;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+.latest-deal p{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.6);
+    padding-bottom: 25px;
+}
+
+.email{
+    height: 60px;
+    width: 570px;
+    font-size: 16px;
+    color: black;
+    background-color:white;
+    border: transparent;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-right: 10px; 
 }
