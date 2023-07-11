@@ -8,7 +8,7 @@
 
 .banner {
     height: 750px;
-    width: 1920px;
+    width: 100%;
     background-color: rgba(229, 84, 115, 0.1);
     display: flex;
     padding-top: 70px;
