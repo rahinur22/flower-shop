@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+    
+    /* The Following CSS styles are for "Banner Part" Section */
+
+.banner {
+    height: 750px;
+    width: 1920px;
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    padding-top: 70px;
+}
+
+.banner-details{
+    padding-left: 200px;
+}
+
+.banner-details h1 {
+    font-size: 80px;
+    font-weight: 700px;
+    padding-top: 150px;
+}
+
+.banner-details p {
+    font-size: 16px;
+    color: rgba(39, 39, 39, 0.6);
+    line-height: 30px;
+    padding: 40px 250px 20px 0px;
+}
+
+.btn-primary {
+    height: 60px;
+    width: 177px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    background-color:#f9004d;
+    border: transparent;
+    border-radius: 10px;
+}
+
+.banner img{
+    padding-right: 200px;
+}
