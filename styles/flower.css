@@ -101,11 +101,60 @@
     margin-bottom: 20px;
 }
 
-.box-1 p{
+.box-1 p {
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
     text-align: center;
-    color:rgba(39, 39, 39, 1);
+    color: rgba(39, 39, 39, 1);
     text-decoration-line: underline;
+}
+
+/* The following CSS styles are for the "Hot Deal" section. */
+
+.hot-deal {
+    height: 620px;
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    gap: 200px;
+    margin-bottom: 200px;
+}
+
+.hot-deal-sale {
+    padding-top: 230px;
+    padding-left: 340px;
+}
+
+.hot-deal-sale h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100px;
+    color: rgba(39, 39, 39, 1);
+}
+
+.hot-deal-sale span {
+    color: #f9004d;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hot-deal-sale p {
+    width: 600px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    padding-bottom: 20px;
+}
+
+.hot-deal-sale button{
+    margin-left: 200px;
+}
+
+.hot-deal img {
+    width: 318px;
+    height: 420px;
+    padding-top: 100px;
 }
