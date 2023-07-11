@@ -6,39 +6,39 @@
 
 /* The following CSS styles are for "Navigation Bar" and "Banner Part" section */
 
-nav{
+nav {
     height: 150px;
     width: 100%;
-    background-color:black;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     color: white;
     font-size: 75px;
     font-weight: bold;
     padding-left: 100px;
 }
 
-.logo span{
+.logo span {
     color: #f9004d;
 }
 
-nav ul li{
+nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #f9004d;
 }
 
@@ -48,7 +48,7 @@ nav ul li a:hover{
     background-color: rgba(229, 84, 115, 0.1);
     display: flex;
     padding-top: 70px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .banner-details {
@@ -106,7 +106,7 @@ nav ul li a:hover{
     gap: 35px;
     padding-left: 230px;
     margin-top: 50px;
-    margin-bottom: 500px;
+    margin-bottom: 200px;
 }
 
 .box-1 {
@@ -154,7 +154,7 @@ nav ul li a:hover{
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
     gap: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .hot-deal-sale {
@@ -185,7 +185,7 @@ nav ul li a:hover{
     padding-bottom: 20px;
 }
 
-.hot-deal-sale button{
+.hot-deal-sale button {
     margin-left: 200px;
 }
 
@@ -195,7 +195,7 @@ nav ul li a:hover{
     padding-top: 100px;
 }
 
-    /* The following CSS styles are for the "Instagram" section. */
+/* The following CSS styles are for the "Instagram" section. */
 
 .instagram {
     text-align: center;
@@ -214,47 +214,82 @@ nav ul li a:hover{
     padding-bottom: 25px;
 }
 
-.insta-section-flowers{
+.insta-section-flowers {
     display: flex;
     gap: 20px;
     padding-left: 240px;
     margin-bottom: 150px;
 }
 
-    /* The following CSS styles are for  the  "Latest Deal" section. */
+/* The following CSS styles are for  the  "Latest Deal" section. */
 
-.latest-deal{
-    height: 800px;
+.latest-deal {
+    height: 450px;
     width: 1430px;
     background-image: url(../flower-asset/Rectangle\ 9.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-left: 240px;
     text-align: center;
+    margin-bottom: 150px;
 }
 
-.latest-deal h1{
+.latest-deal h1 {
     font-size: 40px;
-    font-weight:bolder;
+    font-weight: bolder;
     padding-top: 150px;
     padding-bottom: 20px;
 }
 
-.latest-deal p{
+.latest-deal p {
     font-size: 18px;
     line-height: 30px;
     color: rgba(39, 39, 39, 0.6);
     padding-bottom: 25px;
 }
 
-.email{
+.email {
     height: 60px;
     width: 570px;
     font-size: 16px;
     color: black;
-    background-color:white;
+    background-color: white;
     border: transparent;
     border-radius: 10px;
     padding-left: 20px;
-    margin-right: 10px; 
+    margin-right: 10px;
+}
+
+/* The following CSS styles are for  the  "Footer" section. */
+
+.footer {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+.footer h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+.footer span{
+    color: #f9004d;
+}
+
+.footer-para-1{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    padding-bottom: 25px;
+}
+
+.footer-para-2{
+    font-size: 12px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.4);
 }
